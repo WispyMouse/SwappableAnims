@@ -8,7 +8,9 @@ The built-in Unity way of resolving this is using a **Sprite Library** and a **S
 ## Documentation
 
 https://docs.unity3d.com/Packages/com.unity.2d.animation@8.0/manual/SpriteSwapIntro.html
+
 https://docs.unity3d.com/Packages/com.unity.2d.animation@8.0/manual/SpriteSwapSetup.html
+
 https://docs.unity3d.com/Packages/com.unity.2d.animation@8.0/manual/FFanimation.html
 
 ## This Demo's Setup
