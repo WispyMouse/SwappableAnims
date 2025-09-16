@@ -5,6 +5,12 @@ I assume the reader is already familiar with using **Animation Clip**s for frame
 If you're using **Animation Clip**s as a way to set a sprite directly through dope sheets, you may have seen that you cannot create new **Animation Clip**s at runtime.
 The built-in Unity way of resolving this is using a **Sprite Library** and a **Sprite Resolver**.
 
+## Documentation
+
+https://docs.unity3d.com/Packages/com.unity.2d.animation@8.0/manual/SpriteSwapIntro.html
+https://docs.unity3d.com/Packages/com.unity.2d.animation@8.0/manual/SpriteSwapSetup.html
+https://docs.unity3d.com/Packages/com.unity.2d.animation@8.0/manual/FFanimation.html
+
 ## This Demo's Setup
 
 **/Assets/DemoSpriteLibraryAsset** is a **Sprite Library Asset**. This is a root asset describing the base for sprites in your game.
@@ -19,3 +25,6 @@ When you press the top left "Load Replacement Hexagon From File IO" button it wi
 This will load in a Sprite from the file system, and then set it to be an override for the **Sprite Library** attached to only one of the animated objects.
 Observe that after pressing it, a Hexagon is used as part of the animation, whereas the other animated object is unaffected.
 This demonstrates how you can replace sprites without affecting other **Sprite Library** instances.
+
+To set up your own **Animation Clip**s, use the **Recorder** for the animation menu, and change the Category and Label of the Sprite Resolver you want to change the sprite on.
+Ensure that the Dope Sheet is set up for its nodes to have **Both Tangets** on **Constant**. The Dope Sheet will store a hash code for the combination of Category and Label, and it'll try to do silly things if you have the default Linear Tangets. 
