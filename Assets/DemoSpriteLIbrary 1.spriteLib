@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: Character Animation
+    m_Hash: 691342405
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Frame0
+      m_Hash: 370646054
+      m_Sprite: {fileID: -2413806693520163455, guid: 94d24d97762fd1740a4784851f326581, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2413806693520163455, guid: 94d24d97762fd1740a4784851f326581, type: 3}
+    - m_Name: Frame1
+      m_Hash: 554740912
+      m_Sprite: {fileID: 7482667652216324306, guid: 68becf4d2e9fce244b5ae97b9b0502f1, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 7482667652216324306, guid: 68becf4d2e9fce244b5ae97b9b0502f1, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 2
+  m_PrimaryLibraryGUID: 
